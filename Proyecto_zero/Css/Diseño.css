@@ -80,3 +80,21 @@ tamañobox {
 .diseñoobra {
     width: 400px;
 }
+
+.tituloindex{
+    text-align: center;
+
+}
+
+.diseñotitulo{
+    width: 700px;
+}
+
+.diseñocard{
+    background-color: rgb(77, 77, 79);
+
+}
+
+.colorletratit{
+    color: rgb(244, 243, 243);
+}
