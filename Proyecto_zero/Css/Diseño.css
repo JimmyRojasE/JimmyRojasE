@@ -1,7 +1,5 @@
 
-.container{
-    color: white;
-}
+
 .table{
     border: 2px black solid;
     color: white;  
@@ -15,3 +13,59 @@
     height: 200px;
 }
 
+.imgniño{
+
+    height: 600px;
+}
+
+.carruselimagen {
+
+    width: 800px;
+    height: 800px;
+}
+
+.fondonegro {
+    background-color: black;
+}
+
+body{
+    background-color: black;
+}
+
+#galeria img {
+    width: 100%;
+    height: 250;
+
+}
+
+#galeria .col-lg-4 {
+    padding: 25px;
+
+    margin: 0 !important;
+}
+
+.margentop {
+
+    margin-top: 5%;
+}
+
+.colorcard {
+    color: darkslategray;
+}
+
+tamañobox{
+
+    box-sizing: border-box;
+}
+
+.altoimgangel{
+    width: 790px;
+}
+
+.colorangel{
+    background-color: black;
+}
+
+.obrasp{
+    color: white;
+ }
