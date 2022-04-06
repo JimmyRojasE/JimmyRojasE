@@ -7,3 +7,11 @@
 .h1_{
     text-align: center;
 }
+.h1_as{
+    color: white;
+}
+.BOTON{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
