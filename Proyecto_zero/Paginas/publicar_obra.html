@@ -25,21 +25,30 @@
 
         <div class="collapse navbar-collapse " id="navbarNav">
             <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="Que Necesitas?" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Buscar</button>
             </form>
             <ul class="navbar-nav ml-auto ">
                 <li class="nav-item active">
-                    <a class="nav-link navcolor" href="../index2.html">INICIO <span class="sr-only">(current)</span></a>
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Perfil
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                          <a href="#"><button class="dropdown-item" type="button">Perfil</button></a>
+                          <a href="../vista_login/"><button class="dropdown-item" type="button">Obras</button></a>
+                          <a href="../index2.html"><button class="dropdown-item" type="button">Cerrar Sesion</button></a>
+                        </div>
+                    </div>  
                 </li>
                 <li class="nav-item">
                     <a class="nav-link navcolor" href="../Paginas/Galeria.html">EXHIBICION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link navcolor" href="../Paginas/Contactenos.html">CONTÁCTENOS</a>
+                    <a class="nav-link navcolor" href="../vista_login/vista_index.html">INICIO <span class="sr-only">(current)</span></a>                    
                 </li>
                 <li class="nav-item navcolor">
-                    <a class="nav-link" href="../Paginas/login.html">LOGIN</a>
+                    <a class="nav-link navcolor" href="../Paginas/Contactenos.html">CONTÁCTENOS</a>                  
                 </li>
             </ul>
         </div>
@@ -48,48 +57,27 @@
 
     <div class="container">
       <div class="row mt-4">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <form class="formulario">
+            <h1 class="h1_">Publicar Obras</h1>
             <div class="form-group">
-              <h1 class="h1_">Formulario Login</h1>
-              <label for="exampleInputEmail1">Email </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
+              <label for="text1">Nombre de la Obra </label>
+              <input type="text" class="form-control" id="text1" placeholder="Ingrese Nombre de la Obra">
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
-            </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <form class="formulario">
-            <h1 class="h1_">Formulario Registro</h1>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-              <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie más.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Confirmar email </label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                <small id="emailHelp" class="form-text text-muted"></small>
+                <label for="textAreaComentario">Historia de la obra: </label>
+                <textarea class="form-control" rows="4" id="textAreaComentario"></textarea>
+            </div>    
+              <div class="form-group">
+                <label for="text1">Descripcion de la Obra </label>
+                <input type="text" class="form-control" id="text1" placeholder="Ingrese Descripcion de la Obra">
               </div>
-            <div class="form-group">
-              <label for="exampleInputPassword1">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Confirmar contraseña</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              <div class="form-group">
+                <label for="text1">Precio de la Obra </label>
+                <input type="text" class="form-control" id="text1" placeholder="Ingrese Precio de la Obra">
               </div>
 
-            <button type="submit" class="btn btn-primary">Registrar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
           </form>
         </div>
       </div>
