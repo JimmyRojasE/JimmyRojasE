@@ -1,17 +1,20 @@
-.formulario{
+.formulario {
     margin: 2px;
     padding: 2px;
     background-color: white;
-    
+
 }
-.h1_{
+
+.h1_ {
     text-align: center;
 }
-.h1_as{
+
+.h1_as {
     color: white;
 }
-.BOTON{
-    display:block;
+
+.BOTON {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
